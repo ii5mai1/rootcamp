@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures full viewport height */
+}
+
+.container {
+    max-width: 600px; /* Increased max-width for the container */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+.roulette-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.roulette {
+    max-width: 100%;
+    max-height: 100%;
+    transform-origin: center center;
+    transition: transform 3s cubic-bezier(0.68, -0.75, 0.27, 1.55);
+}
+
+#randomNumber {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #007bff; /* Add a solid border */
+    border-radius: 5px;
+    cursor: pointer;
+}
